@@ -7,10 +7,10 @@ public class ClassExample {
     String surname;
     int age;
 
-    String getAllInfo(){
+    public String getAllInfo(){
         return "My name is " + this.name + " and my surname is " + this.surname + ". My age is " + this.age + " .";
     }
-    void printInfo(){
+    public void printInfo(){
         System.out.println("Name : " + this.name);
         System.out.println("Surname : " + this.surname);
         System.out.println("Age : " + this.age);
