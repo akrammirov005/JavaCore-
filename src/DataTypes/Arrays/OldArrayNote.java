@@ -1,6 +1,8 @@
+package DataTypes.Arrays;
+
 import java.util.Arrays;
 
-public class Array {
+public class OldArrayNote {
     public static void main(String[] args) {
         int x = 10;
         int y = 5;
