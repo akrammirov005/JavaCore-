@@ -4,7 +4,7 @@ public class Poodle extends Dog{
 
     //Child class constructor
     public Poodle(){
-        //used to give value to abstract class attribute
+        //used to give vbalue to abstract class attriute
         super(25);
     }
     public void run(){

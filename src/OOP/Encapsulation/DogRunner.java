@@ -1,4 +1,4 @@
-package OOP.GetterAndSetters;
+package OOP.Encapsulation;
 
 public class DogRunner {
     public static void main(String[] args){
@@ -7,5 +7,7 @@ public class DogRunner {
         System.out.println(dog.getWeight());
         System.out.println(dog.getOwner());
         System.out.println(dog.getDog());
+        String owner = dog.getOwner();
+        dog.feed(owner,"feed1","feed2","feed3");
     }
 }

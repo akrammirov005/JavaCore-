@@ -1,7 +1,7 @@
 package OOP.DependecyInjecion;
 
 import OOP.Cat;
-import OOP.GetterAndSetters.Dog;
+import OOP.Encapsulation.Dog;
 
 public class DependecyInjectionRunner {
     public static void main(String[] args){

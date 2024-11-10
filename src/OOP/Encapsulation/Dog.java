@@ -1,8 +1,12 @@
-package OOP.GetterAndSetters;
+package OOP.Encapsulation;
 
 import java.util.Arrays;
 
 public class Dog {
+   //Encapsulation
+   //The meaning of Encapsulation, is to make sure that "sensitive" data is hidden from users. To achieve this, you must:
+   //declare class variables/attributes as private
+   //provide public get and set methods to access and update the value of a private variable
    private String dogName;
    private String ownerName;
    private double weight;
@@ -14,7 +18,7 @@ public class Dog {
         this.weight = weight;
     }
 
-    //Setter
+    //Setter -> used to set value in attribute/variable
     public void setWeight(double newWeight){
         if (newWeight < 1 ){
             this.weight = 5;
@@ -23,7 +27,7 @@ public class Dog {
         }
     }
 
-    //Getter
+    //Getter -> used to get the value of attribute/variable
     public double getWeight(){
         return this.weight;
     }

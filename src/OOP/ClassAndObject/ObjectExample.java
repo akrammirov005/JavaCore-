@@ -23,6 +23,19 @@ public class ObjectExample {
        System.out.println(getClassInfo2);
        object2.printInfo();
 
+       ClassExample object3 = new ClassExample();
+       String getClassInfo3 =  object3.getAllInfo();
+       System.out.println(getClassInfo3);
+       object3.printInfo();
+
+        ClassExample object4 = new ClassExample("Sam","Samuel",20);
+        String getClassInfo4 =  object4.getAllInfo();
+        System.out.println(getClassInfo4);
+        object4.printInfo();
+
+
+
+
 
     }
 }
