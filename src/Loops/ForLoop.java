@@ -35,7 +35,7 @@ public class ForLoop {
             }
         }
 
-        /*---------------Multiple List ----------------------*/
+        /*---------------Multiple ArrayListCollection ----------------------*/
         int[] listPeople = {120,150,160,178};
         int[]listPeople2 = {102,105,205,180};
         int[][] multipleLists = {listPeople,listPeople2};
